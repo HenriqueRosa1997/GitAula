@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(243, 236, 236);
+}
+h1{
+    padding-left: 30px;
+}
+h2{color: brown;}
+p{text-align: justify;
+margin-left: 3px;
+margin-right: 3px;
+font-family: Arial, Helvetica, sans-serif;
+}
+#destaque{
+  color: aqua;
+}
+.principal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+}
+
+body > h6{
+    font-family: 'Times New Roman' ;
+    font-size: 20px;
+    color: brown;
+
+}
+
+body > ul{
+    font-family: Verdana;
+    color: cadetblue;
+
+}
+
+body > a:hover{
+    color: red;
+    background-color: blueviolet;
+}
+
+a:visited{
+    color:black
+}
+
+a:active{
+    color: yellowgreen;
+}
+
+li{
+    list-style-type: circle;
+     
+}
