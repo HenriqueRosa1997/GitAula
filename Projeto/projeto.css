@@ -8,7 +8,6 @@ body{
     height: 500px;
     margin: 0;
     width: auto;
-    background-attachment: fixed;
     background-size: cover;
     background-position: right center;
     background-repeat: repeat;
@@ -17,6 +16,9 @@ body{
 nav{
     margin-right: 30px;   
     
+}
+ul{
+ margin: 0;
 }
 
 li{
@@ -47,6 +49,10 @@ h1{
     text-align: center;
     padding-top: 200px;
     text-shadow: 3px 3px black;
+}
+
+.box{
+    overflow-wrap: break-word;
 }
 
 .box p{
@@ -98,14 +104,18 @@ h2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
 
+}
+
+.flex img1 {
+    flex: 0 1 auto;
 }
 
 footer{
   
     background-color: gray;
-    width: auto;
+    width: 100%;
     height: 50px;
     text-align: center;
     color: white;
